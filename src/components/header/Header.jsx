@@ -1,11 +1,19 @@
 import React from 'react'
-import './Header.css'
+// import './header.css'
 
 const Header = () => {
     return (
         <header>
-            <div className="container header__container">
-                <h5></h5>
+            <div className="container header-container">
+                <div className="text-zone">
+                    <h1>Hi, <br/> I'm 
+                    Ayush
+                    <br/>
+                    Web developer
+                    </h1>
+                    <h2>Frontend Developer </h2>
+                    <link to="/contact" className='flat-button'>Contact Me!</link>
+                </div>
             </div>
         </header>
     )
