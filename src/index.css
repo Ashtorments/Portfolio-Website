@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import 'animate.css';
 
 body {
     background: var(--color-bg);
@@ -42,6 +43,11 @@ html {
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;  
+    opacity: 0;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    will-change: contents;
 }
 
 h1,
