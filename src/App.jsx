@@ -6,20 +6,25 @@ import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
 import Services from './components/services/Services'
 import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+import Footer from './components/footer/Footer';
+import ErrorBoundary from './ErrorBoundary';
 
 const App = () => {
     return (
-        <>
-        <Header/>
-        <Navbar/>
-        <About/>
-        <Experience/>
-        <Services/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-        </>
+        <div>
+        <ErrorBoundary>
+          <Header />
+          <Navbar />
+            <About />
+            <Experience />
+            <Services />
+            <Projects />
+            <Contact />
+            <Footer />
+        </ErrorBoundary>
+        
+      </div>
+        
     )
 }
 
