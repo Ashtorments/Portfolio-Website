@@ -9,6 +9,13 @@ header{
     height: 100%;
     position: relative;
     
+    /* min-height: 100vh;
+    padding: 50px 40px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center; */
 }
 
 /*=======buttons========*/
@@ -38,18 +45,91 @@ header{
 }
 
 /*=======MyPicture========*/
-.mypicture{
-    background: linear-gradient(var(--color-primary), transparent);
+.header-container .logo{
+    position: inherit;
+    margin-top: -50px;
+    height: 520px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    user-select: none;
+    /* background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
-    /* position: absolute; */
+    position: absolute;
     left: calc(50% -11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-    margin-left: 24rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem; */
+
+
 }
+
+.header-container .logo .mypicture{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.header-container .logo .mypicture.active{
+    animation: spin 8s linear 1s infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header-container .logo .circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(4, 4, 44 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    opacity: 0;
+}
+
+.header-container .logo .mypicture.active .circle{
+    opacity: 1;
+}
+
+.header-container .logo .mypicture.active .circle:nth-child(1){
+    
+}
+
+.header-container img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(108, 161, 197);
+    transform: translate(-200px);
+    opacity: 0;
+    animation: fade-in 1s ease 1 0.5s forwards;
+}
+
+@keyframes fade-in{
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
 
 .scroll-down{
     position: absolute;
@@ -58,6 +138,10 @@ header{
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+.scroll-down .scroll{
+    transform: rotate(-90deg);
 }
 
 /*========Media Querries(Tab)========*/
