@@ -123,19 +123,24 @@ img {
 /* Merdia Queries(medium) */
 
 @media screen and (max-width:1024px) {
-    .projects_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+    .container {
+        width: var(--container-width-md);
     }
 }
 
-
+section {
+    margin-top: 6rem;
+}
 
 /* Merdia Queries(small) */
 
 @media screen and (max-width:600px) {
-    .projects_container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+    .container {
+        width: var(--container-width-sm);
     }
 }
+
+section>h2 {
+    margin-top: 2rem;
+}
+
