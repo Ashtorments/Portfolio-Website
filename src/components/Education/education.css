@@ -1,0 +1,51 @@
+.education_container{
+    display: flex;
+    justify-content: center;
+}
+
+.timeline{
+    background-color: var(--color-bg-variant);
+    padding: 1.875rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.timeline_item{
+    position: relative;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.timeline_item:last-child{
+    padding-bottom: 0;
+}
+
+.timeline_item::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: var(--color-primary);
+    position: absolute;
+    left: .25rem;
+    top: 0;
+}
+
+.icon{
+    position: absolute;
+    left: -0.3rem;
+    top: 0;
+    /* font-size: ; */
+    color: var(--color-primary);
+    background-color: var(--color-bg-variant);
+    padding: 0.4rem 0;
+}
+
+.timeline_date{
+    color: var(--color-light);
+}
+
+.timeline_title{
+    font-size:x-large ;
+    margin: 0.5rem 0;
+}
