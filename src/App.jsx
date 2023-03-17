@@ -10,22 +10,22 @@ import Footer from './components/footer/Footer';
 import ErrorBoundary from './ErrorBoundary';
 
 const App = () => {
-    return (
-        <div>
-        <ErrorBoundary>
-          <Header />
-          <Navbar />
-            <About />
-            <Experience />
-            <Projects />
-            <Services />
-            <Contact />
-            <Footer />
-        </ErrorBoundary>
-        
-      </div>
-        
-    )
+  return (
+    <div>
+      <ErrorBoundary>
+        <Header />
+        <Navbar />
+        <About />
+        <Experience />
+        <Projects />
+        <Services />
+        <Contact />
+        <Footer />
+      </ErrorBoundary>
+
+    </div>
+
+  )
 }
 
 export default App
