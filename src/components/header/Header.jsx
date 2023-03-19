@@ -18,7 +18,7 @@ const Header = () => {
         const timerId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000);
-    
+
         return () => {
             clearTimeout(timerId);
         }
@@ -32,45 +32,45 @@ const Header = () => {
     return (
         <header>
             <div className="container header-container">
-                
-                    <h1>
-                        <span className={letterClass}>H</span>
-                        <span className={`${letterClass} _12`}>i,</span>
 
-                        <br />
-                        <span className={`${letterClass} _13`}>I</span>
-                        <span className={`${letterClass} _14`}>'m </span>
-                        <AnimatedLetters letterClass={letterClass}
-                            strArray={nameArray}
-                            idx={15} />
-                        <br />
-                        <AnimatedLetters letterClass={letterClass}
-                            strArray={jobArray}
-                            idx={22} />
-                    </h1>
-                    <h2>Frontend Developer </h2>
-                    <Buttons />
-                    <Socials />
-                    <div className='logo'>
-                        <div className="mypicture" onClick={handleToggle}>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                            <span className='circle'></span>
-                        </div>
-                        <img src={Mypicture} alt="" />
+                <h1>
+                    <span className={letterClass}>H</span>
+                    <span className={`${letterClass} _12`}>i,</span>
+
+                    <br />
+                    <span className={`${letterClass} _13`}>I</span>
+                    <span className={`${letterClass} _14`}>'m </span>
+                    <AnimatedLetters letterClass={letterClass}
+                        strArray={nameArray}
+                        idx={15} />
+                    <br />
+                    <AnimatedLetters letterClass={letterClass}
+                        strArray={jobArray}
+                        idx={22} />
+                </h1>
+                <h2>Frontend Developer </h2>
+                <Buttons />
+                <Socials />
+                <div className='logo'>
+                    <div className="mypicture" onClick={handleToggle}>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
+                        <span className='circle'></span>
                     </div>
-
-                    <a href="#contact" className='scroll-down'>
-                        <hr />Scroll Down <BsMouse className='scroll' />
-                        <hr />
-                    </a>
+                    <img src={Mypicture} alt="" />
                 </div>
-            
+
+                <a href="#contact" className='scroll-down'>
+                    <hr />Scroll Down <BsMouse className='scroll' />
+                    <hr />
+                </a>
+            </div>
+
         </header>
     )
 }
