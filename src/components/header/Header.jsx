@@ -11,8 +11,8 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 
 const Header = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = [' ', 'A', 'y', 'u', 's', 'h']
-    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+    const nameArray = [' ',' ', 'A', 'y', 'u', 's', 'h']
+    const jobArray = ['w', 'e', 'b', ' ',' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
         const timerId = setTimeout(() => {
@@ -48,6 +48,7 @@ const Header = () => {
                         strArray={jobArray}
                         idx={22} />
                 </h1>
+                <small>Hover/Touch above</small>
                 <h2>Frontend Developer </h2>
                 <Buttons />
                 <Socials />
@@ -64,6 +65,7 @@ const Header = () => {
                     </div>
                     <img src={Mypicture} alt="" />
                 </div>
+                
 
                 <a href="#contact" className='scroll-down'>
                     <hr />Scroll Down <BsMouse className='scroll' />

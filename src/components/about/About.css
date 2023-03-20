@@ -4,6 +4,11 @@
     gap: 15%;
 }
 
+h5{
+    font-size: 0.6rem;
+    padding-bottom: 1.5rem;
+}
+
 .about_me{
     width: 100%;
     aspect-ratio: 1/1;

@@ -11,7 +11,7 @@ const About=()=> {
     })
     return (
         <section id='about' ref={ref}>
-            <h5>Get To Know</h5>
+            <h5>Click Above</h5>
             <h2>About Me</h2>
 
             <div className="container about_container">
