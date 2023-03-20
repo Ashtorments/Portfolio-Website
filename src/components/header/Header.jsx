@@ -66,11 +66,6 @@ const Header = () => {
                     <img src={Mypicture} alt="" />
                 </div>
                 
-
-                <a href="#contact" className='scroll-down'>
-                    <hr />Scroll Down <BsMouse className='scroll' />
-                    <hr />
-                </a>
             </div>
 
         </header>

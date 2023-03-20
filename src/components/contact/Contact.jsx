@@ -4,6 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { BsMouse } from 'react-icons/bs';
 
 const Contact = () => {
     const form = useRef();
@@ -40,6 +41,10 @@ const Contact = () => {
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
                     <button type="submit" className='btn btn-primary'>Send Message</button>
                 </form>
+                <a href="#" className='scroll-down'>
+                    <hr />Scroll Up <BsMouse className='scroll' />
+                    <hr />
+                </a>
             </div>
         </section>
     )

@@ -51,6 +51,17 @@ input, textarea{
     resize: none;
     color: var(--color-white);
 }
+.scroll-down{
+    position: absolute;
+    right: -9.3rem;
+    bottom: 10rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.scroll-down .scroll{
+    transform: rotate(-90deg);
+}
 
 /* Merdia Queries(medium) */
 
