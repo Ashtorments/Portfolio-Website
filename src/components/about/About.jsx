@@ -2,8 +2,8 @@ import React from 'react'
 import './About.css'
 import GradPic4 from '../../assets/GradPic4.jpg'
 import CountUp from 'react-countup';
-import { motion } from "framer-motion"
-import {fadeIn} from '../../variants'
+import { motion } from "framer-motion";
+import {fadeIn} from '../../variants';
 import { useInView } from 'react-intersection-observer';
 
 const About=()=> {
