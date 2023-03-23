@@ -20,6 +20,7 @@
 .projects_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+    max-height: 250px;
 }
 
 .projects_item h3{

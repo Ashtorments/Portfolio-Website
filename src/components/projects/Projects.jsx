@@ -3,6 +3,10 @@ import './Projects.css'
 import WeatherApp from '../../assets/WeatherApp.jpg'
 import LoginAuth from '../../assets/LoginAuth.jpg'
 import PDFMerger from '../../assets/PDFMerger.jpg'
+import Passwordgen from '../../assets/Passwordgen.jpg'
+import Calculator from '../../assets/Calculator.jpg'
+import RPS from '../../assets/RPS.jpg'
+import CodingContests from '../../assets/CodingContests.jpg'
 
 const data = [
   {
@@ -31,7 +35,7 @@ const data = [
     image: LoginAuth,
     title: "Login Auth-Angular-Dotnet",
     github: 'https://github.com/Ashtorments/LoginAuth-Angular-dotnet',
-    demo: ''
+    demo: 'https://ashtorments.github.io/LoginUI/login'
   },
   {
     id: 5,
@@ -42,31 +46,31 @@ const data = [
   },
   {
     id: 6,
-    image: WeatherApp,
+    image: CodingContests,
     title: "Coding Contest",
     github: 'https://github.com/Ashtorments/Coding-Contests-BootStrap-',
     demo: 'https://github.com/Ashtorments/Coding-Contests-BootStrap-'
   },
   {
     id: 7,
-    image: WeatherApp,
+    image: Calculator,
     title: "Calculator",
-    github: 'https://github.com/Ashtorments/Weather-App',
-    demo: 'https://github.com/Ashtorments/Basic-Calculator'
+    github: 'https://github.com/Ashtorments/Basic-Calculator',
+    demo: 'https://ashtorments.github.io/Basic-Calculator/'
   },
   {
     id: 8,
-    image: WeatherApp,
+    image: RPS,
     title: "Rock Paper Scissor",
     github: 'https://github.com/Ashtorments/Rock-Paper-Scissors-Game',
-    demo: 'https://ashtorments.github.io/Weather-App/'
+    demo: 'https://ashtorments.github.io/Rock-Paper-Scissors-Game/'
   },
   {
     id: 9,
-    image: WeatherApp,
+    image: Passwordgen,
     title: "Password Generator",
     github: 'https://github.com/Ashtorments/Password-Generator-using-JS',
-    demo: 'https://ashtorments.github.io/Weather-App/'
+    demo: 'https://ashtorments.github.io/Password-Generator-using-JS/'
   }
 ]
 
