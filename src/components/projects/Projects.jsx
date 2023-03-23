@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 import WeatherApp from '../../assets/WeatherApp.jpg'
 import LoginAuth from '../../assets/LoginAuth.jpg'
+import PDFMerger from '../../assets/PDFMerger.jpg'
 
 const data = [
   {
@@ -20,7 +21,7 @@ const data = [
   },
   {
     id: 3,
-    image: WeatherApp,
+    image: PDFMerger,
     title: "PDF Merger Tool",
     github: 'https://github.com/Ashtorments/PDF-Merger-Tool',
     demo: ''
@@ -69,33 +70,91 @@ const data = [
   }
 ]
 
+const data1 = [
+  {
+    id: 1,
+    image: WeatherApp,
+    title: "Live Weather App",
+    Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
+    github: 'https://github.com/Ashtorments/Weather-App',
+    demo: 'https://redsoil.in/'
+  },
+  {
+    id: 2,
+    image: WeatherApp,
+    title: "Live Weather App",
+    Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
+    github: 'https://github.com/Ashtorments/Weather-App',
+    demo: 'https://ashtorments.github.io/Weather-App/'
+  },
+  {
+    id: 3,
+    image: WeatherApp,
+    title: "Live Weather App",
+    Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
+    github: 'https://github.com/Ashtorments/Weather-App',
+    demo: 'https://ompoojapath.com/'
+  },
+]
+
 const Projects = () => {
   return (
     <section id='Projects'>
       <h5>My Recent Personal Projects</h5>
       <h2>Projects</h2>
-      <div className="container projects_container">
-        {
-          data.map(({ id, image, title, github, demo})=>{
-            return(
-              <article key={id} className='projects_item'>
-          <div className="projects_item-image">
-            <img src={image} alt={title} />
-          </div>
-          <h3>{title}</h3>
-          <div className="projects_item-cta">
-          <a href={github} className='btn' target='_blank'>Github</a>
-          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-            )          
-          })
-        }
-        
+      <div class="warpper">
+        <input class="radio" id="one" name="group" type="radio" checked />
+        <input class="radio" id="two" name="group" type="radio" />
 
-        
+        <div class="tabs">
+          <label class="tab" id="one-tab" for="one">Personal Projects</label>
+          <label class="tab" id="two-tab" for="two">Professional Projects</label>
+        </div>
+        <div class="panels">
+          <div class="panel" id="one-panel">
+            <div className="container projects_container">
+              {
+                data.map(({ id, image, title, github, demo }) => {
+                  return (
+                    <article key={id} className='projects_item'>
+                      <div className="projects_item-image">
+                        <img src={image} alt={title} />
+                      </div>
+                      <h3>{title}</h3>
+                      <div className="projects_item-cta">
+                        <a href={github} className='btn' target='_blank'>Github</a>
+                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                      </div>
+                    </article>
+                  )
+                })
+              }
+            </div>
+          </div>
+          <div class="panel" id="two-panel">
+          <div className="container projects_container">
+              {
+                data1.map(({ id, image, title, Desc, github, demo }) => {
+                  return (
+                    <article key={id} className='projects_item'>
+                      <div className="projects_item-image">
+                        <img src={image} alt={title} />
+                      </div>
+                      <h3>{title}</h3>
+                      <h5>{Desc}</h5>
+                      <div className="projects_item-cta">
+                        <a href={github} className='btn' target='_blank'>Github</a>
+                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                      </div>
+                    </article>
+                  )
+                })
+              }
+            </div>
+          </div>
+        </div>
       </div>
-      </section>
+    </section>
   )
 }
 

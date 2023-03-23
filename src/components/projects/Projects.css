@@ -1,12 +1,12 @@
 .projects_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1.2fr);
+    gap: 2rem;
 }
 
 .projects_item{
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1rem 1rem 0.5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -31,6 +31,58 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+  
+  .warpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 15px 140px;
+    margin: 0px 5px 14px;
+    background: #32557f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+  }
+  
+  
+  
+  .panel {
+    display: none;
+    background-color: transparent;
+    animation: fadein 0.5s;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .radio {
+    display: none;
+  }
+  
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel,
+  #three:checked ~ .panels #three-panel {
+    display: block;
+  }
+  
+  #one:checked ~ .tabs #one-tab,
+  #two:checked ~ .tabs #two-tab,
+  #three:checked ~ .tabs #three-tab {
+    background: #fff;
+    color: #000;
+    border-top: 3px solid #32557f;
+  }
 
 /* Merdia Queries(medium) */
 
