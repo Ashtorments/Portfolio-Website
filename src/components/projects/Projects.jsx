@@ -7,6 +7,9 @@ import Passwordgen from '../../assets/Passwordgen.jpg'
 import Calculator from '../../assets/Calculator.jpg'
 import RPS from '../../assets/RPS.jpg'
 import CodingContests from '../../assets/CodingContests.jpg'
+import Todo from '../../assets/Todo.jpg'
+import om from '../../assets/om.jpg'
+import RedSoil from '../../assets/RedSoil.jpg'
 
 const data = [
   {
@@ -39,10 +42,10 @@ const data = [
   },
   {
     id: 5,
-    image: WeatherApp,
-    title: "E-mail Centre-Angular",
-    github: 'https://github.com/Ashtorments/Email-center-Angular-',
-    demo: ''
+    image: Todo,
+    title: "Todo-List",
+    github: 'https://github.com/Ashtorments/todo_list',
+    demo: 'https://ashtorments.github.io/todo_list/'
   },
   {
     id: 6,
@@ -77,26 +80,23 @@ const data = [
 const data1 = [
   {
     id: 1,
-    image: WeatherApp,
-    title: "Live Weather App",
+    image: RedSoil,
+    title: "RedSoil",
     Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
-    github: 'https://github.com/Ashtorments/Weather-App',
     demo: 'https://redsoil.in/'
   },
   {
     id: 2,
     image: WeatherApp,
-    title: "Live Weather App",
+    title: "DTS",
     Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
-    github: 'https://github.com/Ashtorments/Weather-App',
     demo: 'https://ashtorments.github.io/Weather-App/'
   },
   {
     id: 3,
-    image: WeatherApp,
-    title: "Live Weather App",
+    image: om,
+    title: "Ompoojapath",
     Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
-    github: 'https://github.com/Ashtorments/Weather-App',
     demo: 'https://ompoojapath.com/'
   },
 ]
@@ -138,7 +138,7 @@ const Projects = () => {
           <div class="panel" id="two-panel">
           <div className="container projects_container">
               {
-                data1.map(({ id, image, title, Desc, github, demo }) => {
+                data1.map(({ id, image, title, Desc, demo }) => {
                   return (
                     <article key={id} className='projects_item'>
                       <div className="projects_item-image">
@@ -147,7 +147,7 @@ const Projects = () => {
                       <h3>{title}</h3>
                       <h5>{Desc}</h5>
                       <div className="projects_item-cta">
-                        <a href={github} className='btn' target='_blank'>Github</a>
+                        
                         <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
                       </div>
                     </article>
