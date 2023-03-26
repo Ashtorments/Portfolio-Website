@@ -20,7 +20,7 @@ const About=()=> {
                 variants={fadeIn('right',0.7)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{once:false, amount:0.5}}
+                viewport={{once:false, amount:0.2}}
                 className="about_me">
                     <div className="about_me-image">
                         <img src={GradPic4} alt=""/>
@@ -28,10 +28,10 @@ const About=()=> {
                 </motion.div>
 
                 <motion.div 
-                variants={fadeIn('left',0.5)}
+                variants={fadeIn('left',0.7)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{once:false, amount:0.5}}
+                viewport={{once:false, amount:0.2}}
                 className="about_content">
                     <div className="about_cards">
                         <article className='about_card'>
