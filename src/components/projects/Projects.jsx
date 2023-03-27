@@ -10,6 +10,14 @@ import CodingContests from '../../assets/CodingContests.jpg'
 import Todo from '../../assets/Todo.jpg'
 import om from '../../assets/om.jpg'
 import RedSoil from '../../assets/RedSoil.jpg'
+import {AiOutlineHtml5} from 'react-icons/ai'
+import {IoLogoCss3} from 'react-icons/io'
+import {IoLogoJavascript} from 'react-icons/io'
+import {IoLogoWordpress} from 'react-icons/io'
+import {IoLogoAngular} from 'react-icons/io'
+import {SiDotnet} from 'react-icons/si'
+import {FaBootstrap} from 'react-icons/fa'
+import {AiOutlineConsoleSql} from 'react-icons/ai'
 
 const data = [
   {
@@ -82,21 +90,24 @@ const data1 = [
     id: 1,
     image: RedSoil,
     title: "RedSoil",
-    Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
+    logo: [<AiOutlineHtml5/>,<IoLogoCss3/>,<IoLogoJavascript/>,<IoLogoWordpress/>],
+    Desc: "A Real Estate website of a company based in Bengaluru, India",
     demo: 'https://redsoil.in/'
   },
   {
     id: 2,
     image: WeatherApp,
     title: "DTS",
-    Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
+    logo: [<AiOutlineHtml5/>,<IoLogoCss3/>, <IoLogoAngular/>,<SiDotnet/>,<FaBootstrap/>,<AiOutlineConsoleSql/>],
+    Desc: "Electronics products dealing website of a company based in the US",
     demo: 'https://ashtorments.github.io/Weather-App/'
   },
   {
     id: 3,
     image: om,
     title: "Ompoojapath",
-    Desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia natus voluptates, maxime impedit aspernatur similique maiores molestias ullam provident. Blanditiis saepe veniam inventore sint similique error, consequuntur optio illum!",
+    logo: <IoLogoWordpress/>,
+    Desc: "A Pooja(Prayer) service website which is also based in Bengaluru",
     demo: 'https://ompoojapath.com/'
   },
 ]
@@ -138,13 +149,14 @@ const Projects = () => {
           <div class="panel" id="two-panel">
           <div className="container projects_container">
               {
-                data1.map(({ id, image, title, Desc, demo }) => {
+                data1.map(({ id, image, title, logo, Desc, demo }) => {
                   return (
                     <article key={id} className='projects_item'>
                       <div className="projects_item-image">
                         <img src={image} alt={title} />
                       </div>
                       <h3>{title}</h3>
+                      <h4 className='logo'>{logo}</h4>
                       <h5>{Desc}</h5>
                       <div className="projects_item-cta">
                         

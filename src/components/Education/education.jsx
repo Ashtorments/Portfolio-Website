@@ -38,18 +38,14 @@ const education = () => {
         <section className="education container section" id="education">
             <h2 className="section_title">Education and Experience</h2>
             <div className="education_container grid">
-                <motion.div 
-                variants={fadeIn('up',0.7)}
-                initial='hidden'
-                whileInView={'show'}
-                viewport={{once:false, amount:0.5}}
+                <div
                 className="timeline grid">
                     {data.map(({id, icon, year, title, desc}) => {
                         return (
                             <Card key={id} icon={icon} title={title} year={year} desc={desc} />
                         )
                     })}
-                </motion.div>
+                </div>
 
 
             </div>

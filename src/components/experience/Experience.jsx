@@ -11,25 +11,19 @@ const Experience = () => {
         target: containerRef,
         offset: ["start end", "end end"]
     });
+   
 
-    const bottomShadowValue = useTransform(
-        scrollYProgress,
-        [0, 1],
-        ["-100%", "0%"]
-    );
-    const imageValue = useTransform(scrollYProgress, [0, 1], ["-100%", "0%"]);
-    const topShadowValue = useTransform(
-        scrollYProgress,
-        [0, 1],
-        ["-25%", "100%"]
-    );
+
+    const imageValue = useTransform(scrollYProgress, [0, 1], ["-60%", "10%"]);
+    const imageValue1 = useTransform(scrollYProgress, [0, 1], ["60%", "-10%"]);
+
     return (
         <section className='experience' ref={containerRef}>
             <h5> What skills I Have</h5>
             <h2> My Expertise</h2>
 
             <div className="container experience_container">
-                <div className="experience_frontend">
+                <motion.div className="experience_frontend" style={{ translateX: imageValue1 }}>
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
                         <article className='experience_details'>
@@ -99,10 +93,10 @@ const Experience = () => {
                             </div>
                         </article>
                     </div>
-                </div>
-                
+                </motion.div>
+
                 <motion.div className="experience_backend" style={{ translateX: imageValue }}>
-                    <motion.div className="bottom-shadow" style={{ translateX: bottomShadowValue }} />
+                    
                     <h3>Backend Development</h3>
                     <div className="experience_content">
                         <article className='experience_details'>
@@ -154,10 +148,7 @@ const Experience = () => {
                             </div>
                         </article>
                     </div>
-                    <motion.div
-            className="top-shadow"
-            style={{ translateX: topShadowValue }}
-          />
+                    
                 </motion.div>
             </div>
 
