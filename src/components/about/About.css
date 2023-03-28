@@ -4,9 +4,8 @@
     gap: 15%;
 }
 
-h5{
-    font-size: 1.1rem;
-    /* padding-bottom: 1.5rem; */
+.small{
+    font-size: 0.6rem;
 }
 
 .about_me{

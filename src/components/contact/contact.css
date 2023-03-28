@@ -70,6 +70,9 @@ input, textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    .scroll-down{
+        display: none;
+    }
 }
 
 

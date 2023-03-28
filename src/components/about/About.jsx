@@ -12,7 +12,6 @@ const About=()=> {
     })
     return (
         <section id='about' ref={ref}>
-            <h5>Click Above</h5>
             <h2>About Me</h2>
 
             <div className="container about_container">
@@ -20,7 +19,7 @@ const About=()=> {
                 variants={fadeIn('right',0.7)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{once:false, amount:0.2}}
+                viewport={{once:true, amount:0.2}}
                 className="about_me">
                     <div className="about_me-image">
                         <img src={GradPic4} alt=""/>
@@ -31,7 +30,7 @@ const About=()=> {
                 variants={fadeIn('left',0.7)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{once:false, amount:0.2}}
+                viewport={{once:true, amount:0.2}}
                 className="about_content">
                     <div className="about_cards">
                         <article className='about_card'>

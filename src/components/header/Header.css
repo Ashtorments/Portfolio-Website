@@ -1,7 +1,10 @@
+
 header{
-    height: 100vh;
+    /* height: 100vh; */
     /* padding-top: 5rem; */
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
+    background-image: url("../../assets/bg.png");
+    background-position: center;
 }
 
 small{
@@ -15,13 +18,23 @@ small{
     position: relative;
     
     min-height: 100vh;
-    padding: 50px 40px;
-    margin-top: 7px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center ;
+    /* padding: 50px 40px; */
+    /* margin-top: 7px; */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* gap: 1rem; */
+    /* flex-direction: column; */
+    /* justify-content:center ; */
     align-items: center;
 }
+
+.text{
+    /* padding: 1rem; */
+    margin: 1rem;
+    width: auto;
+}
+
+
 
 /*=======buttons========*/
 .buttons{
@@ -38,7 +51,7 @@ small{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: -3rem;
     bottom: 15rem;
 }
 
@@ -52,7 +65,7 @@ small{
 /*=======MyPicture========*/
 .header-container .logo{
     position: inherit;
-    margin-top: -50px;
+    /* margin-top: -50px; */
     height: 520px;
     width: 520px;
     display: flex;
@@ -60,7 +73,7 @@ small{
     align-items: center;
     border-radius: 50%;
     user-select: none;
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
     /* background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -200,19 +213,33 @@ small{
     header{
         height: 68vh;
     }
+
 }
 
-/*========Media Querries(Tab)========*/
+/*========Media Querries(mobile)========*/
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 130vh;
     }
-    .socials,
-    .scroll-down{
+    .socials{
         display: none;
     }
-    /* .header-container .logo .circle, */
-    /* .header-container .logo,
+    .header-container{
+        grid-template-columns: 1fr;
+        /* width: auto; */
+    }
+    .h1{
+        font-size: 2.8rem;
+        /* margin-left: -6rem; */
+    }
+    .buttons{
+    }
+    .header-container .logo{
+        width: auto;
+        
+    }
+    /* .header-container .logo .circle,
+    .header-container .logo,
     .header-container .logo .mypicture{
         max-height:10%;
         max-width: 10%;
