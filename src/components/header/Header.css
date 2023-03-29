@@ -1,10 +1,7 @@
-
 header{
-    /* height: 100vh; */
-    /* padding-top: 5rem; */
-    /* margin-bottom: 10rem; */
     background-image: url("../../assets/bg.png");
-    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 small{
@@ -16,24 +13,12 @@ small{
     text-align: center;
     height: 100%;
     position: relative;
-    
     min-height: 100vh;
-    /* padding: 50px 40px; */
-    /* margin-top: 7px; */
+    padding: 50px 40px;
     display: grid;
     grid-template-columns: 60% 40%;
-    /* gap: 1rem; */
-    /* flex-direction: column; */
-    /* justify-content:center ; */
     align-items: center;
 }
-
-.text{
-    /* padding: 1rem; */
-    margin: 1rem;
-    width: auto;
-}
-
 
 
 /*=======buttons========*/
@@ -65,7 +50,6 @@ small{
 /*=======MyPicture========*/
 .header-container .logo{
     position: inherit;
-    /* margin-top: -50px; */
     height: 520px;
     width: 520px;
     display: flex;
@@ -73,17 +57,10 @@ small{
     align-items: center;
     border-radius: 50%;
     user-select: none;
-    /* margin-top: 15rem; */
-    /* background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% -11rem);
-    border-radius: 12rem 12rem 0 0;
+    background: linear-gradient(90deg, rgba(80, 109, 227, 0.583), transparent);
+    border-radius: 14rem 0rem 0 10rem;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem; */
-
-
+    padding: 4rem 2rem 2rem 1.5rem;
 }
 
 .header-container .logo .mypicture{
@@ -220,23 +197,50 @@ small{
 @media screen and (max-width: 600px){
     header{
         height: 130vh;
+        width: auto;
+        /* background-image: none; */
+    }
+    html{
+
+        overflow-x: hidden;
     }
     .socials{
         display: none;
+        left: 0;
     }
     .header-container{
+        display: grid;
         grid-template-columns: 1fr;
-        /* width: auto; */
+        /* display: none; */
+        /* overflow-x: hidden; */
+    }
+    .text{
+        margin-left: -2.4rem;
     }
     .h1{
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         /* margin-left: -6rem; */
     }
     .buttons{
     }
+    .container{
+        /* margin: 0 2rem; */
+    }
     .header-container .logo{
         width: auto;
+        /* display: none; */
         
+    }
+    .header-container .logo .circle{
+        /* width: auto; */
+        /* display: none; */
+        height: 60px;
+        width: 60px;
+    }
+    .header-container .logo .mypicture{
+        width: 100px;
+        height: 100px;
+        /* display: none; */
     }
     /* .header-container .logo .circle,
     .header-container .logo,

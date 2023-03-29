@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 import Buttons from './Buttons';
 import Mypicture from '../../assets/Mypicture.jpeg';
+import bg from '../../assets/bg.png';
 import Socials from './Socials';
 import { BsMouse } from 'react-icons/bs';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
@@ -30,7 +31,7 @@ const Header = () => {
     }
 
     return (
-        <header>
+        <header >
             <div className="container header-container">
                 <div className='text'>
                     <h1 className='h1'>
@@ -49,7 +50,6 @@ const Header = () => {
                             idx={22} />
                     </h1>
                     <small>Hover/Touch above</small>
-                    {/* <h2>Frontend Developer </h2> */}
                     <Buttons />
                 </div>
                 <Socials />

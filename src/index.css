@@ -7,8 +7,9 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     font-family: 'Varela Round', sans-serif;
-    background-image: repeating-linear-gradient(90deg, rgba(88, 119, 160, 0.182), rgba(255, 255, 255, 0.109) 1px, transparent 1px, transparent 7px);
-    background-size: 20px;
+    /* background-image: repeating-linear-gradient(90deg, rgba(88, 119, 160, 0.182), rgba(255, 255, 255, 0.109) 1px, transparent 1px, transparent 7px); */
+    /* background-size: 20px; */
+
 }
 
 * {
