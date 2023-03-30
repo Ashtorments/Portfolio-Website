@@ -35,8 +35,9 @@ const data = [
 ]
 const education = () => {
     return (
-        <section className="education container section" id="education">
-            <h2 className="section_title">Education and Experience</h2>
+        <section id='bg'>
+            <h2 >Education and Experience</h2>
+            <div className="education container section">
             <div className="education_container grid">
                 <div
                 className="timeline grid">
@@ -48,6 +49,7 @@ const education = () => {
                 </div>
 
 
+            </div>
             </div>
         </section>
     )

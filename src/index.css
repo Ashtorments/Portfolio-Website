@@ -65,9 +65,9 @@ h1 {
     
 }
 
-section {
+/* section {
     margin-top: 8rem;
-}
+} */
 
 section>h2,
 section>h5 {
@@ -130,9 +130,9 @@ img {
     }
 }
 
-section {
+/* section {
     margin-top: 6rem;
-}
+} */
 
 /* Merdia Queries(small) */
 

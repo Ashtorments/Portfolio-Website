@@ -3,7 +3,15 @@
     justify-content: center;
     
 }
-
+#bg{
+    background-repeat: no-repeat;
+    background-image:
+            linear-gradient(180deg, rgba(24, 8, 47, 0.654),
+              rgba(0, 0, 0, 0.726)), url('../../assets/bg4.jpg');
+    background-size: cover;
+    margin-top: 0rem;
+    padding: 5rem;
+}
 .timeline{
     background-color: var(--color-bg-variant);
     padding: 1.875rem;
