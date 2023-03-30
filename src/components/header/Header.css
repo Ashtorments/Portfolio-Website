@@ -1,6 +1,10 @@
 header{
-    background-image: url("../../assets/bg.png");
+    /* background-image: url("../../assets/bg.png"); */
     background-repeat: no-repeat;
+    background-image:
+            linear-gradient(180deg,
+              rgba(166, 119, 205, 0.726),
+              rgba(38, 73, 102, 0.744)), url('../../assets/bg.png');
     background-size: cover;
 }
 
@@ -60,7 +64,7 @@ small{
     background: linear-gradient(90deg, rgba(80, 109, 227, 0.583), transparent);
     border-radius: 14rem 0rem 0 10rem;
     overflow: hidden;
-    padding: 4rem 2rem 2rem 1.5rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .header-container .logo .mypicture{

@@ -4,6 +4,18 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
 }
+.btn{
+    margin-bottom: 4rem;
+}
+
+#Contact{
+    /* background-image: url("../../assets/bg2.jpg"); */
+    background-image: linear-gradient(0deg, rgb(38, 65, 109), transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    
+}
 
 .contact_options{
     display: flex;
