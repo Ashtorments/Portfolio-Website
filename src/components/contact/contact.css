@@ -3,10 +3,9 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    padding-bottom: 4rem;
 }
-.btn{
-    margin-bottom: 4rem;
-}
+
 
 #Contact{
     /* background-image: url("../../assets/bg2.jpg"); */

@@ -18,7 +18,7 @@ small{
     /* height: 100%; */
     position: relative;
     min-height: 100vh;
-    padding: 50px 40px;
+    /* padding: 50px 40px; */
     display: grid;
     grid-template-columns: 60% 40%;
     align-items: center;
@@ -200,8 +200,8 @@ small{
 /*========Media Querries(mobile)========*/
 @media screen and (max-width: 600px){
     header{
-        height: 130vh;
-        width: auto;
+        height: 105vh;
+        /* width: auto; */
         /* background-image: none; */
     }
     html{
@@ -217,23 +217,30 @@ small{
         grid-template-columns: 1fr;
         /* display: none; */
         /* overflow-x: hidden; */
-    }
-    .text{
-        margin-left: -2.4rem;
+        /* margin: auto; */
     }
     .h1{
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         /* margin-left: -6rem; */
+
     }
     .buttons{
+        /* justify-content:space-around; */
+        /* gap: 0; */
     }
     .container{
         /* margin: 0 2rem; */
     }
     .header-container .logo{
-        width: auto;
-        /* display: none; */
+        width: 310px;
+        /* width: auto; */
+
         
+        /* display: none; */
+        /* padding: 10rem; */
+        margin: auto;
+        height: 350px;
+        border-radius: 10rem 0rem 0 10rem;
     }
     .header-container .logo .circle{
         /* width: auto; */
@@ -245,6 +252,10 @@ small{
         width: 100px;
         height: 100px;
         /* display: none; */
+    }
+    .header-container img{
+        height: 200px;
+        width: 200px;
     }
     /* .header-container .logo .circle,
     .header-container .logo,

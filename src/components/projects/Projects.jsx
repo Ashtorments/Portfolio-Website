@@ -156,7 +156,7 @@ const Projects = () => {
                         <img src={image} alt={title} />
                       </div>
                       <h3>{title}</h3>
-                      <h4 className='logo'>{logo}</h4>
+                      <h4 className='logo1'>{logo}</h4>
                       <h5>{Desc}</h5>
                       <div className="projects_item-cta">
                         

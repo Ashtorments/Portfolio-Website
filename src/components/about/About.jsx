@@ -8,7 +8,7 @@ import { useInView } from 'react-intersection-observer';
 
 const About=()=> {
     const [ref, inView] = useInView({
-        threshold: 0.5,
+        threshold: 0.2,
     })
     return (
         <section id='about' ref={ref}>
