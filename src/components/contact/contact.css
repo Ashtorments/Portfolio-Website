@@ -94,5 +94,8 @@ input, textarea{
     .container.contact_container {
         width: var(--container-width-sm);
     }
+    #contactbtn{
+        padding: 0.6rem 0.8rem;
+    }
 }
 

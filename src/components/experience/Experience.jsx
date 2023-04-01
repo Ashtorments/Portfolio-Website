@@ -14,8 +14,8 @@ const Experience = () => {
    
 
 
-    const imageValue = useTransform(scrollYProgress, [0, 1], ["-60%", "10%"]);
-    const imageValue1 = useTransform(scrollYProgress, [0, 1], ["60%", "-10%"]);
+    const imageValue = useTransform(scrollYProgress, [0, 1], ["-60%", "20%"]);
+    const imageValue1 = useTransform(scrollYProgress, [0, 1], ["60%", "-20%"]);
 
     return (
         <section className='experience' ref={containerRef}>

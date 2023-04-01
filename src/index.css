@@ -140,11 +140,12 @@ img {
     .container {
         width: var(--container-width-sm);
     }
+    .btn{
+        padding: 0.2rem 0.4rem;
+    }
 }
 
-.btn{
-    padding: 0.4rem 0.70rem;
-}
+
 /* section>h2 {
     margin-top: 2rem;
 } */

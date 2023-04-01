@@ -30,7 +30,7 @@ const data = [
   {
     id: 2,
     image: WeatherApp,
-    title: "Portfolio Website-React",
+    title: "Portfolio Website",
     github: 'https://github.com/Ashtorments/Portfolio-Website',
     demo: '#'
   },
@@ -44,7 +44,7 @@ const data = [
   {
     id: 4,
     image: LoginAuth,
-    title: "Login Auth-Angular-Dotnet",
+    title: "Login Authentication",
     github: 'https://github.com/Ashtorments/LoginAuth-Angular-dotnet',
     demo: 'https://ashtorments.github.io/LoginUI/login'
   },
@@ -138,7 +138,7 @@ const Projects = () => {
                       <h3>{title}</h3>
                       <div className="projects_item-cta">
                         <a href={github} className='btn' target='_blank'>Github</a>
-                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
                       </div>
                     </article>
                   )

@@ -55,6 +55,31 @@
 }
 
 .timeline_title{
-    font-size:x-large ;
+    font-size: 24px;
+    font-weight:bold;
     margin: 0.5rem 0;
+}
+
+@media screen and (max-width:600px) {
+    #bg{
+        padding: 0.7rem;
+        padding-top: 3rem;
+    }
+    .timeline_title{
+        font-size:22px ;
+        margin: 0.3rem 0;
+    }
+    .timeline_item::before{
+        left: 0;
+    }
+    .icon{
+        left: -0.4rem;
+    }
+    .timeline_item{
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+    .timeline{
+        padding: 1.15rem;
+    }
 }
