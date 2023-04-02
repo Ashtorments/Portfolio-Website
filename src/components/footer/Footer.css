@@ -57,10 +57,13 @@ footer a {
 @media screen and (max-width:600px) {
     .permalinks{
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 0.7rem;
     }
     .footer_socials{
-        margin-bottom: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .footer_copyright{
+        margin-bottom: 6rem;
     }
 }
 

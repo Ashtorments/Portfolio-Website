@@ -5,6 +5,7 @@ import LoginAuth from '../../assets/LoginAuth.jpg'
 import PDFMerger from '../../assets/PDFMerger.jpg'
 import Passwordgen from '../../assets/Passwordgen.jpg'
 import Calculator from '../../assets/Calculator.jpg'
+import portfolio from '../../assets/portfolio.jpg'
 import RPS from '../../assets/RPS.jpg'
 import CodingContests from '../../assets/CodingContests.jpg'
 import Todo from '../../assets/Todo.jpg'
@@ -29,7 +30,7 @@ const data = [
   },
   {
     id: 2,
-    image: WeatherApp,
+    image: portfolio,
     title: "Portfolio Website",
     github: 'https://github.com/Ashtorments/Portfolio-Website',
     demo: '#'

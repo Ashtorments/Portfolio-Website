@@ -81,7 +81,16 @@
 
     .experience_container>div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 0.5rem;
+    }
+    .experience{
+        padding: 2rem;
+    }
+    .experience_container>div h3 {
+        margin-bottom: 0.5rem;
+    }
+    .experience_content {
+        row-gap: 1rem;
     }
 }
 
