@@ -6,13 +6,13 @@
 }
 
 #Projects{
-    /* background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-image:
-        linear-gradient(180deg, rgba(0, 0, 0, 0.726), 
-        rgba(24, 8, 47, 0.654)
-        ), url('../../assets/bg.png');
-    background-size: cover; */
-    background: linear-gradient(180deg, rgba(15, 7, 33, 0.763), transparent);
+            linear-gradient(180deg,
+            rgba(15, 4, 42, 0.838),
+              rgba(1, 1, 17, 0.936)), url('../../assets/bg7.jpg');
+    background-size: cover;
+    /* background: linear-gradient(180deg, rgba(15, 7, 33, 0.763), rgba(54, 14, 56, 0.769)); */
     padding: 4rem;
 }
 .projects_item{
@@ -111,6 +111,13 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem
     }
+    .tab {
+
+        padding: 8px 1rem;
+        /* margin: 0 4px 14px; */
+        font-size: 20px;
+        border-radius: 7px 7px 0px 0px;
+      }
 }
 
 

@@ -11,6 +11,8 @@ header{
 small{
     color: var(--color-light);
     font-size: 10px;
+    z-index: 5;
+    margin-top: 22rem;
 }
 
 .header-container{
@@ -192,7 +194,22 @@ small{
 /*========Media Querries(Tab)========*/
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        /* height: 68vh; */
+    }
+    .header-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    html{
+
+        overflow-x: hidden;
+    }
+    .header-container .logo{
+        margin: auto;
+    }
+    .socials{
+        left: 0;
+        margin-bottom: 14rem;
     }
 
 }
@@ -203,6 +220,9 @@ small{
         height: 105vh;
         /* width: auto; */
         /* background-image: none; */
+    }
+    small{
+        margin-top: 14rem;
     }
     html{
 
@@ -249,8 +269,8 @@ small{
         width: 60px;
     }
     .header-container .logo .mypicture{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         /* display: none; */
     }
     .header-container img{

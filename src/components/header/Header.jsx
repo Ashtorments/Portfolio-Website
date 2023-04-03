@@ -54,6 +54,8 @@ const Header = () => {
                 </div>
                 <Socials />
                 <div className='logo'>
+                <small>Click Above to see skills!</small>
+
                     <div className="mypicture" onClick={handleToggle}>
                         <span className='circle'></span>
                         <span className='circle'></span>

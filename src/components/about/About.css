@@ -88,6 +88,10 @@
     .about_content p{
         margin: 1rem 0 1.5rem;
     }
+    .about_me{
+        /* width: 65%; */
+        margin: 0 auto 3rem;
+    }
 }
 
 

@@ -24,9 +24,9 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/ayush-rai-b12808236/"><FiLinkedin/></a>
 
             </div>
-            <div className="footer_copyright">
+            {/* <div className="footer_copyright">
                 <small>&copy; AYUSH RAI 2023. All rights reserved.</small>
-            </div>
+            </div> */}
         </footer>
     )
 }

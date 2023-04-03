@@ -9,7 +9,7 @@
 
 #Contact{
     /* background-image: url("../../assets/bg2.jpg"); */
-    background-image: linear-gradient(0deg, rgb(38, 65, 109), transparent);
+    background-image: linear-gradient(180deg, rgba(1, 4, 19, 0.996), rgb(44, 80, 138));
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
@@ -94,6 +94,7 @@ input, textarea{
 @media screen and (max-width:600px) {
     .container.contact_container {
         width: var(--container-width-sm);
+        padding: 0rem 1rem 1rem 1rem;
     }
     #contactbtn{
         padding: 0.6rem 0.8rem;
