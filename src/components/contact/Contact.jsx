@@ -41,10 +41,10 @@ const Contact = () => {
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
                     <button type="submit" className='btn btn-primary' id='contactbtn'>Send Message</button>
                 </form>
-                {/* <a href="#" className='scroll-down'>
+                <a href="#" className='scroll-down'>
                     <hr />Scroll Up <BsMouse className='scroll' />
                     <hr />
-                </a> */}
+                </a>
             </div>
         </section>
     )

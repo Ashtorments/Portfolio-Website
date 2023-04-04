@@ -2,13 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 import Buttons from './Buttons';
 import Mypicture from '../../assets/Mypicture.jpeg';
-import bg from '../../assets/bg.png';
 import Socials from './Socials';
-import { BsMouse } from 'react-icons/bs';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-// import { Link } from 'react-router-dom';
-// import '../../App.scss';
-// import '../../index.css';
 
 const Header = () => {
     const [letterClass, setLetterClass] = useState('text-animate')

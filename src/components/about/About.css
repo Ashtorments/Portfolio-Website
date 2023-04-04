@@ -26,17 +26,6 @@
     place-items: center;
 }
 
-/* @media(prefers-reduced-motion){
-    .about_me{
-        transition: none;
-    }
-}
-@media(prefers-reduced-motion){
-    .about_content{
-        transition: none;
-    }
-} */
-
 
 .about_me-image{
     border-radius: 1rem;
@@ -89,7 +78,6 @@
         margin: 1rem 0 1.5rem;
     }
     .about_me{
-        /* width: 65%; */
         margin: 0 auto 3rem;
     }
 }
@@ -100,7 +88,6 @@
 
 @media screen and (max-width:600px) {
     .about_cards{
-        /* grid-template-columns: 1fr 1fr; */
         gap: 1rem;
     }
     .about_card{

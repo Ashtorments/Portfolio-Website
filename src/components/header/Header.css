@@ -1,5 +1,4 @@
 header{
-    /* background-image: url("../../assets/bg.png"); */
     background-repeat: no-repeat;
     background-image:
             linear-gradient(180deg,
@@ -17,10 +16,8 @@ small{
 
 .header-container{
     text-align: center;
-    /* height: 100%; */
     position: relative;
     min-height: 100vh;
-    /* padding: 50px 40px; */
     display: grid;
     grid-template-columns: 60% 40%;
     align-items: center;
@@ -193,9 +190,7 @@ small{
 
 /*========Media Querries(Tab)========*/
 @media screen and (max-width: 1024px){
-    header{
-        /* height: 68vh; */
-    }
+
     .header-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -218,14 +213,11 @@ small{
 @media screen and (max-width: 600px){
     header{
         height: 105vh;
-        /* width: auto; */
-        /* background-image: none; */
     }
     small{
         margin-top: 14rem;
     }
     html{
-
         overflow-x: hidden;
     }
     .socials{
@@ -235,54 +227,26 @@ small{
     .header-container{
         display: grid;
         grid-template-columns: 1fr;
-        /* display: none; */
-        /* overflow-x: hidden; */
-        /* margin: auto; */
     }
     .h1{
         font-size: 2.2rem;
-        /* margin-left: -6rem; */
 
-    }
-    .buttons{
-        /* justify-content:space-around; */
-        /* gap: 0; */
-    }
-    .container{
-        /* margin: 0 2rem; */
     }
     .header-container .logo{
         width: 310px;
-        /* width: auto; */
-
-        
-        /* display: none; */
-        /* padding: 10rem; */
         margin: auto;
         height: 350px;
         border-radius: 10rem 0rem 0 10rem;
     }
     .header-container .logo .circle{
-        /* width: auto; */
-        /* display: none; */
         height: 60px;
         width: 60px;
     }
-    .header-container .logo .mypicture{
+    .header-container .logo .mypicture
+    ,.header-container img{
         width: 200px;
         height: 200px;
-        /* display: none; */
     }
-    .header-container img{
-        height: 200px;
-        width: 200px;
-    }
-    /* .header-container .logo .circle,
-    .header-container .logo,
-    .header-container .logo .mypicture{
-        max-height:10%;
-        max-width: 10%;
-    } */
 }
 
 

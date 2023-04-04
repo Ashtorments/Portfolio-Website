@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import {fadeIn} from '../../variants';
 import { useInView } from 'react-intersection-observer';
 
+
 const About=()=> {
     const [ref, inView] = useInView({
         threshold: 0.2,
@@ -55,7 +56,7 @@ const About=()=> {
                         </article>
                     </div>
 
-                    <p>As a self-taught web developer, I have honed my skills by building a range of components and projects. My passion lies in developing front-end web applications and staying up-to-date with new tools, frameworks, and libraries. After graduating from Reva University in Bengaluru last year, I began working on real-time WordPress projects for clients. As I gained more experience, I transitioned to HTML, CSS, and JavaScript, building personal and professional projects along the way. I also delved into JavaScript frameworks such as Angular, Node.js, and React, working on large-scale full-stack projects. Recently, I've also started learning backend frameworks like Asp.net.
+                    <p>As a self-taught web developer, I have honed my skills by building a range of components and projects. My passion lies in developing front-end web applications and staying up-to-date with new tools, frameworks, and libraries. While graduating from Reva University in Bengaluru last year, I began working on real-time WordPress projects for clients. As I gained more experience, I transitioned to HTML, CSS, and JavaScript, building personal and professional projects along the way. I also delved into JavaScript frameworks such as Angular, Node.js, and React, working on large-scale full-stack projects. Recently, I've also started learning backend frameworks like Asp.net.
                         <br/>One of my favorite aspects of web development is being creative with styling, constantly tweaking and exploring new concepts, libraries, and frameworks. Moving forward, I am excited to work alongside professionals and continue growing both personally and professionally.</p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>

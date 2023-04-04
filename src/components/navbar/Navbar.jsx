@@ -3,7 +3,6 @@ import './Navbar.css'
 import {BiHome} from 'react-icons/bi';
 import {BiUser} from 'react-icons/bi';
 import {BiMailSend} from 'react-icons/bi';
-import {BiNetworkChart} from 'react-icons/bi';
 import {FaLaptopCode} from 'react-icons/fa';
 import { useState } from 'react';
 
