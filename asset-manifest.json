@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.cef5a4ae.css",
+    "main.js": "/Portfolio-Website/static/js/main.7024ed6f.js",
+    "static/media/RedSoil.jpg": "/Portfolio-Website/static/media/RedSoil.2f494e529305d2650e9b.jpg",
+    "static/media/bg.png": "/Portfolio-Website/static/media/bg.dd7552c5b769374988b5.png",
+    "static/media/CodingContests.jpg": "/Portfolio-Website/static/media/CodingContests.4c45bc527594f8d5289e.jpg",
+    "static/media/om.jpg": "/Portfolio-Website/static/media/om.97e1863475458fab1eeb.jpg",
+    "static/media/GradPic4.jpg": "/Portfolio-Website/static/media/GradPic4.32def0b3af93bebfc9de.jpg",
+    "static/media/bg7.jpg": "/Portfolio-Website/static/media/bg7.cd0b6c92a3a7381affee.jpg",
+    "static/media/Todo.jpg": "/Portfolio-Website/static/media/Todo.1631f81c16ae40a304d1.jpg",
+    "static/media/WeatherApp.jpg": "/Portfolio-Website/static/media/WeatherApp.6e13eda07232315556ff.jpg",
+    "static/media/bg3.jpg": "/Portfolio-Website/static/media/bg3.f2853daaea65f377e576.jpg",
+    "static/media/Mypicture.jpeg": "/Portfolio-Website/static/media/Mypicture.7b920543bcb6e0755ad7.jpeg",
+    "static/media/bg4.jpg": "/Portfolio-Website/static/media/bg4.b002bad196018da3eb9a.jpg",
+    "static/media/Resume2023.pdf": "/Portfolio-Website/static/media/Resume2023.5919690ac8909ff953c7.pdf",
+    "static/media/LoginAuth.jpg": "/Portfolio-Website/static/media/LoginAuth.2e6e576cc905ed32e42b.jpg",
+    "static/media/portfolio.jpg": "/Portfolio-Website/static/media/portfolio.e393edb1b3a379cffc71.jpg",
+    "static/media/RPS.jpg": "/Portfolio-Website/static/media/RPS.d550fd5410ef90b57220.jpg",
+    "static/media/CSS.png": "/Portfolio-Website/static/media/CSS.87f545c8e6cfb5682e51.png",
+    "static/media/HTML.png": "/Portfolio-Website/static/media/HTML.84bd2bc158cd909eca3d.png",
+    "static/media/Nodejs.png": "/Portfolio-Website/static/media/Nodejs.7b0f4700ed6ce39afdff.png",
+    "static/media/Passwordgen.jpg": "/Portfolio-Website/static/media/Passwordgen.7083007afff1e5a27f0a.jpg",
+    "static/media/Calculator.jpg": "/Portfolio-Website/static/media/Calculator.f3d69b9e15e6c5ba7b3f.jpg",
+    "static/media/PDFMerger.jpg": "/Portfolio-Website/static/media/PDFMerger.260acaa350928b4dee01.jpg",
+    "static/media/Bootstrap.png": "/Portfolio-Website/static/media/Bootstrap.02b89671c6e5e5e5da0c.png",
+    "static/media/JavaScript.png": "/Portfolio-Website/static/media/JavaScript.932321ca2174dc9b068f.png",
+    "static/media/Angularjs.png": "/Portfolio-Website/static/media/Angularjs.ed13bd7fb2b728d22582.png",
+    "static/media/Reactjs.png": "/Portfolio-Website/static/media/Reactjs.aeeaae53b25cd428287b.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.cef5a4ae.css.map": "/Portfolio-Website/static/css/main.cef5a4ae.css.map",
+    "main.7024ed6f.js.map": "/Portfolio-Website/static/js/main.7024ed6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cef5a4ae.css",
+    "static/js/main.7024ed6f.js"
+  ]
+}
