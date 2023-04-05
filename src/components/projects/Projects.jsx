@@ -88,7 +88,7 @@ const data = [
 
 const data1 = [
   {
-    id: 1,
+    id: 10,
     image: RedSoil,
     title: "RedSoil",
     logo: [<AiOutlineHtml5/>,<IoLogoCss3/>,<IoLogoJavascript/>,<IoLogoWordpress/>],
@@ -96,7 +96,7 @@ const data1 = [
     demo: 'https://redsoil.in/'
   },
   {
-    id: 2,
+    id: 11,
     image: WeatherApp,
     title: "DTS",
     logo: [<AiOutlineHtml5/>,<IoLogoCss3/>, <IoLogoAngular/>,<SiDotnet/>,<FaBootstrap/>,<AiOutlineConsoleSql/>],
@@ -104,7 +104,7 @@ const data1 = [
     demo: 'https://ashtorments.github.io/Weather-App/'
   },
   {
-    id: 3,
+    id: 12,
     image: om,
     title: "Ompoojapath",
     logo: <IoLogoWordpress/>,
@@ -126,8 +126,8 @@ const Projects = () => {
           <label class="tab" id="one-tab" for="one">Personal Projects</label>
           <label class="tab" id="two-tab" for="two">Professional Projects</label>
         </div>
-        <div class="panels">
-          <div class="panel" id="one-panel">
+        <div className="panels">
+          <div className="panel" id="one-panel">
             <div className="container projects_container">
               {
                 data.map(({ id, image, title, github, demo }) => {
